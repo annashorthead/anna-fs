@@ -1,0 +1,38 @@
+{
+  "name": "anna-fs",
+  "version": "1.0.0",
+  "description": "A Cross-platform file manager, based on ray-fs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annashorthead/anna-fs.git"
+  },
+  "keywords": [
+    "file-manager",
+    "nodejs",
+    "npm",
+    "windows",
+    "linux",
+    "macOS",
+    "ray-userland",
+    "anna-userland",
+    "ray-fs",
+    "ray-serve"
+  ],
+  "author": "Ray Voice, Anna Voice",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/annashorthead/anna-fs/issues"
+  },
+  "homepage": "https://github.com/annashorthead/anna-fs#readme",
+  "dependencies": {
+    "electron": "^13.1.6",
+    "electron-packager": "^15.2.0",
+    "ray-fs": "^2.2.1",
+    "ray-serve": "^2.2.3"
+  }
+}
